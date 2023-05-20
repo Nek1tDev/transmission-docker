@@ -9,8 +9,8 @@ services:
       - PGID=1000
       - TZ=Europe/Moscow
       - TRANSMISSION_WEB_HOME= #optional
-      - USER=-e FILE__TRANSMISSION_USERNAME=/run/secrets/mysecretnames
-      - PASS=-e FILE__TRANSMISSION_PASS=/run/secrets/mysecretnames
+      - USER=-Username
+      - PASS=Pass
       - WHITELIST= #optional
       - PEERPORT=51413
       - HOST_WHITELIST= #optional
